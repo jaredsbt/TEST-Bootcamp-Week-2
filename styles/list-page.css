@@ -1,5 +1,6 @@
 body {
     background-color: beige;
+    /* opacity: 0.3; */
 }
 
 h1 {
@@ -28,5 +29,9 @@ div.img {
 
 div.png {
     float: right;
-    
+
+}
+
+div.squidward {
+    float: right;
 }

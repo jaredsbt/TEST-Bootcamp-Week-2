@@ -1,5 +1,6 @@
 body {
-    background-color: beige;
+    background-image: url("../images/spongebobBG.png");
+    /* background-color: beige; */
     font-size: xx-large;
     font-family:'Courier New', Courier, monospace;
 }
@@ -39,3 +40,8 @@ h3 {
     align-items: center;
     text-align: center;
 }
+
+div.Squidward {
+    float: right;
+}
+
