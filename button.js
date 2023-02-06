@@ -1,8 +1,8 @@
 const btn = document.createElement('button');
 
-btn.innetText = 'Recipes';
+// btn.innetText = 'Recipes';
 
-btn.addEventListener('Recipes', () => {
+btn.addEventListener(' ', () => {
     alert('Loading...')
 });
 

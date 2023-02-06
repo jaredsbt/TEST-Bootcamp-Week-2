@@ -3,30 +3,30 @@ body {
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Apple Chancery, cursive;
     font-size: xx-large;
     text-align: center;
-    color: gray;
+    color: green;
 }
 
-ubeCheescakeBtn {
-    border: red;
-    color: gold;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    padding: 15px 32px;
-    transition-duration: 0.5;
-    margin : 4px 2px;
+btn.ube {
+    color: purple;
+    text-decoration: none;
 }
 
-cookiesBtn {
-    border: red;
-    color: brown;
+btn.cookies {
+    text-decoration: none;
+    color: black; 
+}
+
+div.img {
+    vertical-align: top;
     display: inline-block;
-    cursor: pointer;
     text-align: center;
-    padding: 15px 32px;
-    transition-duration: 0.5;
-    margin : 4px 2px;
+    width: 120px; 
+}
+
+div.png {
+    float: right;
+    
 }
