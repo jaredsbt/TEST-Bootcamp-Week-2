@@ -8,9 +8,21 @@ h1 {
     text-align: center;
     color: gray;
 }
-button {
+
+ubeCheescakeBtn {
     border: red;
-    color: white;
+    color: gold;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 32px;
+    transition-duration: 0.5;
+    margin : 4px 2px;
+}
+
+cookiesBtn {
+    border: red;
+    color: brown;
     display: inline-block;
     cursor: pointer;
     text-align: center;
