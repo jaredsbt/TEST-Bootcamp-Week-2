@@ -10,20 +10,64 @@ head {
     text-align: center;
 }
 
-h1 {
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: x-large;
+/* div {
+   background-color: red
+} */
+
+.flex-container {
+    display: flex;
 }
 
-h2 {
-    color: brown;
+div.pageTitle {
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: x-large;
+    font-size: 35px;
+    color: darkcyan;
+    font-family: fantasy;
+    text-decoration: underline;
 }
 
-btn {
+div.Squidward {
+    position: relative;
+    left: 215px;
+}
+
+div.Spongebob {
+    position: relative;
+    top: 150px;
+    left: 50px
+}
+
+div.Squad {
+    position: relative;
+    bottom: 50px;
+    right: 15px;
+}
+
+.navigationBar {
+    overflow: hidden;
+    /* background-color: lightgoldenrodyellow; */
+}
+
+.navigationBar a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navigationBar a:hover {
+    background-color: lightsalmon;
+    color: black;
+}
+
+.navigationBar a.active {
+    background-color: lightskyblue;
+    color: black;
+}
+
+
+/* btn {
     border: 5px red;
     color: purple;
     display: inline-block;
@@ -34,14 +78,22 @@ btn {
     transition-duration: 0.5;
     margin : 4px 2px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+} */
 
-h3 {
+/* h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+} */
+
+/* h2 {
+    color: brown;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+} */
+
+/* h3 {
     align-items: center;
     text-align: center;
-}
-
-div.Squidward {
-    float: right;
-}
-
+} */

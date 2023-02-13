@@ -1,0 +1,19 @@
+body {
+    background-image: url("../funImages/F.U.N.png");
+}
+
+.flex-container {
+    display: flex;
+}
+
+div.U {
+    position: relative;
+    top: 20px;
+    right: 25px;
+}
+
+div.jellyFishBtn {
+    position: relative;
+    top: 550px;
+    right: 60px;
+}

@@ -2,7 +2,7 @@
     <html lang = "en-US">
         <head>
             <link href = "styles/home-page.css" rel = "StyleSheet">
-            <script src = "button.js" defer></script>
+            <!-- <script src = "button.js" defer></script> -->
             <meta charset= "utf-8"/>
             <title>
                 Secret Recipes
@@ -10,29 +10,43 @@
         </head>
 
         <body>
-            <p>Welcome,</p>
+            <div class = "navigationBar">
+                <a class= "active" href="home.html">Home</a>
+                <a href = "list.html">Recipes</a>
+                <a href= "F-is-for-Fun.html">F is for Fun</a>
+                <a href= "secret-formula.html">Secret Formula</a>
+            </div>
 
-            <h1>
-                <p>To my collection of:</p>
-            </h1>
+            <div class = "pageTitle"><p>F.U.N down here in the deep blue sea</p></div></h1>
 
-            <h2>
-                <a href="list.html">
-                    <btn>Recipes</btn>
-                    <!-- <button>
-                    Recipes
-                    </button>  -->
-                </a>
-            </h2>
 
-            <h3>
+            <div class = "flex-container">
+                <div class = "Squad">
+                    <img src = "images/squad.png" alt = "Squad" style = "width: 500px; height: 500px"/>
+                </div>
+                <!-- <img src = "images/krabbypatty.jpg" alt="Krabby Patty Secret Formula" style="width: 500px; height:350px"/> -->
+
+                <div class = "Spongebob">
+                    <img src = "images/Spongebob.png" alt = "SpongebobS" style = "width: 400px; height: 300px"/>
+                </div>
+
                 <div class = "Squidward">
                     <img src = "images/squidward.png" alt = "SquidWard" style = "width: 300px; height: 500px">
                 </div>
-                <img src = "images/krabbypatty.jpg" alt="Krabby Patty Secret Formula" style="width: 500px; height:350px"/>
-                <div class = "Spongebob">
-                    <img src = "images/Spongebob.png" alt = "SpongebobS"/>
-                </div>
-            </h3>
+            </div>
+            
         </body>
     </html>
+
+     <!-- <h1>
+                <p>To my collection of:</p>
+            </h1> -->
+
+            <!-- <h1>
+                <a href="list.html">
+                    <btn>Recipes</btn>
+                        <button>
+                    Recipes
+                    </button> 
+                </a>
+            </h1>  -->
