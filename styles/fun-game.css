@@ -1,0 +1,26 @@
+body {
+    background-image: url("../funImages/gameBG.webp");
+    background-size: 1300px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.empty {
+    width: 857px;
+    height: 284px;
+}
+
+.gifBtn {
+    opacity: 0;
+}
+div.gifBtn:hover {
+    opacity: 1;
+    position: relative;
+    left: 400px;
+    bottom: 75px;
+    /* background-image: url("../funImages/guts-berserk.gif"); */
+}
