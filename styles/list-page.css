@@ -5,9 +5,18 @@ body {
 
 h1 {
     font-family: Apple Chancery, cursive;
-    font-size: xx-large;
+    font-size: 50px;
     text-align: center;
     color: green;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
 }
 
 btn.ube {
@@ -27,11 +36,16 @@ div.img {
     width: 120px; 
 }
 
-div.png {
+div.goodBurger {
+    position: relative;
     float: right;
+    bottom: 1100px;
 
 }
 
-div.squidward {
-    float: right;
+div.puffers {
+    position: relative;
+    float: center;
+    left: 600px;
+    bottom: 500px;
 }
